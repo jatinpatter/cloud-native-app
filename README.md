@@ -39,14 +39,22 @@ This pipeline automates code checkout, unit testing, containerization, image dis
 ```
 
 ## 🛠️ Tech Stack
-•	Operating System: Red Hat Enterprise Linux (RHEL 9.7 / ARM64)
-•	Version Control: Git & GitHub
-•	CI/CD Automation: Jenkins (Declarative Pipeline)
-•	Application Framework: Node.js (Express), Mocha & Supertest
-•	Containerization: Docker (Multi-stage Dockerfile)
-•	Registry: Docker Hub (jatinpatter0702/cloud-native-app)
-•	Orchestration: Kubernetes (Minikube)
 
+- Operating System: Red Hat Enterprise Linux (RHEL 9.7 / ARM64)
+
+- Version Control: Git & GitHub
+
+- CI/CD Automation: Jenkins (Declarative Pipeline)
+
+- Application Framework: Node.js (Express), Mocha & Supertest
+
+- Containerization: Docker (Multi-stage Dockerfile)
+
+- Registry: Docker Hub (jatinpatter0702/cloud-native-app)
+
+- Orchestration: Kubernetes (Minikube)
+
+---
 
 ## 📸 Proof of Execution
 1. Jenkins Pipeline Execution
@@ -61,6 +69,8 @@ This pipeline automates code checkout, unit testing, containerization, image dis
 
 
 ## ⚙️ Repository File Structure
+
+```text
 .
 ├── Dockerfile              # Multi-stage Docker build config
 ├── Jenkinsfile             # Declarative Pipeline definition
@@ -72,23 +82,30 @@ This pipeline automates code checkout, unit testing, containerization, image dis
 │   └── service.yaml        # Kubernetes NodePort Service manifest
 └── tests/
     └── app.test.js         # Automated unit test suite
-
-
+```
 
 ## 🚀 Getting Started
-Prerequisites
-•	RHEL / Linux server with Docker, Jenkins, kubectl, and Minikube configured.
-•	Docker Hub Account & GitHub Personal Access Token.
-Local Execution
-	1.	Clone the repository:
-  • git clone [https://github.com/jatinpatter/cloud-native-app.git](https://github.com/jatinpatter/cloud-native-app.git)
-  • cd cloud-native-app
-  
-  2.	Run tests:
-  • npm install
-  • npm test
 
-  3.	Deploy via Jenkins:
+### Prerequisites
+* RHEL / Linux server with Docker, Jenkins, `kubectl`, and Minikube configured.
+* Docker Hub Account & GitHub Personal Access Token.
+
+### Local Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/jatinpatter/cloud-native-app.git](https://github.com/jatinpatter/cloud-native-app.git)
+   cd cloud-native-app
+   
+  
+2. **Run tests:**
+   ```bash
+   npm install
+   npm test
+
+
+
+  4.	Deploy via Jenkins:
   •	Create a new Pipeline job pointing to https://github.com/jatinpatter/cloud-native-app.git.
   •	Trigger Build Now.
 
