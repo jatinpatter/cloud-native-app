@@ -230,7 +230,7 @@ curl http://<NODE-IP>:30080
 
 ```html
 <h1>Cloud-Native App Active!</h1>
-<p>Tag: ef613b8</p>
+<p>Tag: v1.0.0</p>
 ```
 
 ---
