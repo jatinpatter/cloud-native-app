@@ -1,14 +1,10 @@
 # 🚀 Enterprise Cloud-Native CI/CD Pipeline
 
-![Jenkins](https://img.shields.io/badge/Jenkins-Pipeline%20Passed-brightgreen?logo=jenkins)
-
-![Docker](https://img.shields.io/badge/Docker-Image%20Pushed-blue?logo=docker)
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Rollout%20Success-326CE5?logo=kubernetes)
-
-![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
-
-![RHEL](https://img.shields.io/badge/OS-RHEL%209.7-red?logo=redhat)
+![Jenkins Pipeline Status](https://img.shields.io/badge/Jenkins-Pipeline_Passed-brightgreen?logo=jenkins)
+![Docker Registry](https://img.shields.io/badge/Docker_Hub-Image_Pushed-blue?logo=docker)
+![Kubernetes Deploy](https://img.shields.io/badge/Kubernetes-Rollout_Success-326CE5?logo=kubernetes)
+![Node.js](https://img.shields.io/badge/Node.js-18_Alpine-339933?logo=node.js)
+![Linux OS](https://img.shields.io/badge/OS-RHEL_9.7-red?logo=redhat)
 
 An end-to-end **Enterprise Cloud-Native CI/CD Pipeline** built using **Jenkins, Docker, Kubernetes (Minikube), GitHub, and Red Hat Enterprise Linux (RHEL 9.7 ARM64)**.
 
