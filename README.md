@@ -236,8 +236,8 @@ curl http://<NODE-IP>:30080
 ---
 
 # 📦 Docker Hub Repository
-
-jatinpatter0702/cloud-native-app
+[
+jatinpatter0702/cloud-native-app](https://github.com/jatinpatter/cloud-native-app)
 
 ---
 
@@ -245,8 +245,8 @@ jatinpatter0702/cloud-native-app
 
 **Jatin Patter**
 
-- GitHub: jatinpatter
-- Docker Hub: jatinpatter0702
+- GitHub Profile: https://github.com/jatinpatter
+- Docker Hub: https://hub.docker.com/u/jatinpatter0702
 
 ---
 
